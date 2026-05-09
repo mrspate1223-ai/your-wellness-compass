@@ -1,4 +1,41 @@
 import { createFileRoute } from "@tanstack/react-router";
+import type { ResultProfile } from "@/lib/quiz-data";
+
+function SecondaryPattern({ sec }: { sec: ResultProfile }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="mt-6 overflow-hidden rounded-2xl border border-border bg-secondary/40">
+      <button
+        onClick={() => setOpen((o) => !o)}
+        className="flex w-full items-center justify-between gap-3 p-4 text-left text-sm text-secondary-foreground transition-colors hover:bg-secondary/60"
+        aria-expanded={open}
+      >
+        <span>
+          <span className="font-semibold">Your secondary pattern appears to be: </span>
+          {sec.title}
+        </span>
+        <span className={`transition-transform ${open ? "rotate-180" : ""}`}>⌄</span>
+      </button>
+      {open && (
+        <div className="space-y-4 border-t border-border p-5 text-sm">
+          <p className="italic text-foreground/80">{sec.tagline}</p>
+          <p className="leading-relaxed text-muted-foreground">{sec.description}</p>
+          <div>
+            <p className="mb-2 font-semibold text-foreground">What may also help:</p>
+            <ul className="space-y-1.5">
+              {sec.helps.map((h) => (
+                <li key={h} className="flex items-start gap-2 text-foreground/90">
+                  <span className="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-primary" />
+                  <span>{h}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
 import { useMemo, useState } from "react";
 import {
   questions,
@@ -260,14 +297,7 @@ function ResultView({
         <p className="mt-4 text-lg italic text-foreground/80 md:text-xl">{r.tagline}</p>
         <p className="mt-5 leading-relaxed text-muted-foreground md:text-lg">{r.description}</p>
 
-        {sec && (
-          <div className="mt-6 rounded-2xl border border-border bg-secondary/40 p-4">
-            <p className="text-sm text-secondary-foreground">
-              <span className="font-semibold">Your secondary pattern appears to be: </span>
-              {sec.title}.
-            </p>
-          </div>
-        )}
+        {sec && <SecondaryPattern sec={sec} />}
       </div>
 
       <div className="rounded-3xl border border-border bg-card p-7 shadow-[var(--shadow-soft)] md:p-10">
