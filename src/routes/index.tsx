@@ -260,14 +260,7 @@ function ResultView({
         <p className="mt-4 text-lg italic text-foreground/80 md:text-xl">{r.tagline}</p>
         <p className="mt-5 leading-relaxed text-muted-foreground md:text-lg">{r.description}</p>
 
-        {sec && (
-          <div className="mt-6 rounded-2xl border border-border bg-secondary/40 p-4">
-            <p className="text-sm text-secondary-foreground">
-              <span className="font-semibold">Your secondary pattern appears to be: </span>
-              {sec.title}.
-            </p>
-          </div>
-        )}
+        {sec && <SecondaryPattern sec={sec} />}
       </div>
 
       <div className="rounded-3xl border border-border bg-card p-7 shadow-[var(--shadow-soft)] md:p-10">
