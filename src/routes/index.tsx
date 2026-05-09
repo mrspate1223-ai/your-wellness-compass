@@ -56,7 +56,7 @@ function Index() {
   };
 
   return (
-    <div className="min-h-screen bg-[var(--gradient-warm)]">
+    <div className="min-h-screen " style={{background:"var(--gradient-warm)"}}">
       <div className="mx-auto max-w-3xl px-5 py-10 md:py-16">
         <Header />
         {stage === "intro" && <Intro onStart={() => setStage("quiz")} />}
@@ -118,7 +118,7 @@ function Intro({ onStart }: { onStart: () => void }) {
       </div>
       <button
         onClick={onStart}
-        className="mt-8 w-full rounded-full bg-[var(--gradient-primary)] px-8 py-4 text-base font-medium text-primary-foreground shadow-[var(--shadow-glow)] transition-[var(--transition-smooth)] hover:scale-[1.02] active:scale-[0.99] md:w-auto"
+        className="mt-8 w-full rounded-full bg-[image:var(--gradient-primary)] px-8 py-4 text-base font-medium text-primary-foreground shadow-[var(--shadow-glow)] transition-[var(--transition-smooth)] hover:scale-[1.02] active:scale-[0.99] md:w-auto"
       >
         Begin the Assessment →
       </button>
@@ -172,7 +172,7 @@ function QuizView({ current, setCurrent, answers, setAnswers, onFinish }: QuizVi
         </div>
         <div className="h-1.5 w-full overflow-hidden rounded-full bg-muted">
           <div
-            className="h-full rounded-full bg-[var(--gradient-primary)] transition-[width] duration-500"
+            className="h-full rounded-full bg-[image:var(--gradient-primary)] transition-[width] duration-500"
             style={{ width: `${progress}%` }}
           />
         </div>
@@ -226,7 +226,7 @@ function QuizView({ current, setCurrent, answers, setAnswers, onFinish }: QuizVi
               else onFinish();
             }}
             disabled={!canAdvance}
-            className="rounded-full bg-[var(--gradient-primary)] px-7 py-3 text-sm font-medium text-primary-foreground shadow-[var(--shadow-soft)] transition-[var(--transition-smooth)] hover:scale-[1.03] disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:scale-100"
+            className="rounded-full bg-[image:var(--gradient-primary)] px-7 py-3 text-sm font-medium text-primary-foreground shadow-[var(--shadow-soft)] transition-[var(--transition-smooth)] hover:scale-[1.03] disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:scale-100"
           >
             {current === questions.length - 1 ? "See My Results" : "Continue →"}
           </button>
@@ -282,7 +282,7 @@ function ResultView({
         </ul>
       </div>
 
-      <div className="rounded-3xl border border-primary/20 bg-[var(--gradient-primary)] p-7 text-primary-foreground shadow-[var(--shadow-glow)] md:p-10">
+      <div className="rounded-3xl border border-primary/20 bg-[image:var(--gradient-primary)] p-7 text-primary-foreground shadow-[var(--shadow-glow)] md:p-10">
         <h3 className="font-serif text-xl md:text-2xl">Your next step</h3>
         <p className="mt-3 leading-relaxed opacity-95">{r.nextStep}</p>
         <a
