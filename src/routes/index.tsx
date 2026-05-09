@@ -56,7 +56,7 @@ function Index() {
   };
 
   return (
-    <div className="min-h-screen " style={{background:"var(--gradient-warm)"}}">
+    <div className="min-h-screen" style={{ background: "var(--gradient-warm)" }}>
       <div className="mx-auto max-w-3xl px-5 py-10 md:py-16">
         <Header />
         {stage === "intro" && <Intro onStart={() => setStage("quiz")} />}
