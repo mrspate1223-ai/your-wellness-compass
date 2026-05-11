@@ -113,13 +113,13 @@ function Header() {
     <header className="mb-8 flex flex-col items-center text-center">
       <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-4 py-1.5 text-xs font-medium tracking-widest text-muted-foreground uppercase">
         <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-        Rooted &amp; Restored
+        Restored Radiance · Integrative Psychiatry
       </div>
       <h1 className="font-serif text-3xl leading-tight text-foreground md:text-5xl">
         Why Don’t I Feel Like Myself Anymore?
       </h1>
       <p className="mt-2 text-sm text-muted-foreground md:text-base">
-        A Wellness Assessment
+        A Root Cause Pattern Assessment
       </p>
     </header>
   );
@@ -137,9 +137,9 @@ function Intro({ onStart }: { onStart: () => void }) {
           emotionally flat, or unlike yourself.
         </p>
         <p className="text-base md:text-lg text-muted-foreground">
-          This assessment was designed to help identify common patterns associated with chronic
-          stress, nervous system overload, hormonal imbalance, burnout, inflammation, and
-          functional depletion.
+          If you have been told your labs are normal but you know something is off, this assessment
+          was designed to help identify what pattern may be driving what you feel, so you finally
+          have language for it.
         </p>
         <div className="mt-6 rounded-2xl border border-border bg-secondary/50 p-4 text-sm text-secondary-foreground">
           This is not a diagnostic tool. It is a starting point for deeper self-awareness and
@@ -148,7 +148,8 @@ function Intro({ onStart }: { onStart: () => void }) {
       </div>
       <button
         onClick={onStart}
-        className="mt-8 w-full rounded-full bg-[image:var(--gradient-primary)] px-8 py-4 text-base font-medium text-primary-foreground shadow-[var(--shadow-glow)] transition-[var(--transition-smooth)] hover:scale-[1.02] active:scale-[0.99] md:w-auto"
+        style={{ backgroundColor: "#6B4020" }}
+        className="mt-8 w-full rounded-full px-8 py-4 text-base font-medium text-primary-foreground shadow-[var(--shadow-glow)] transition-[var(--transition-smooth)] hover:scale-[1.02] active:scale-[0.99] md:w-auto"
       >
         Begin the Assessment →
       </button>
