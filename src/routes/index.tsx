@@ -113,13 +113,13 @@ function Header() {
     <header className="mb-8 flex flex-col items-center text-center">
       <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-4 py-1.5 text-xs font-medium tracking-widest text-muted-foreground uppercase">
         <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-        Rooted &amp; Restored
+        Restored Radiance · Integrative Psychiatry
       </div>
       <h1 className="font-serif text-3xl leading-tight text-foreground md:text-5xl">
         Why Don’t I Feel Like Myself Anymore?
       </h1>
       <p className="mt-2 text-sm text-muted-foreground md:text-base">
-        A Wellness Assessment
+        A Root Cause Pattern Assessment
       </p>
     </header>
   );
