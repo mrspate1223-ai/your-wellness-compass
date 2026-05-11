@@ -303,14 +303,7 @@ function ResultView({
 
       <div className="rounded-3xl border border-border bg-card p-7 shadow-[var(--shadow-soft)] md:p-10">
         <h3 className="font-serif text-xl text-foreground md:text-2xl">What this pattern is telling us</h3>
-        <ul className="mt-4 space-y-2.5">
-          {r.helps.map((h) => (
-            <li key={h} className="flex items-start gap-3 text-foreground/90">
-              <span className="mt-2 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-primary" />
-              <span>{h}</span>
-            </li>
-          ))}
-        </ul>
+        <p className="mt-4 leading-relaxed text-foreground/90 md:text-lg">{r.helps}</p>
       </div>
 
       <div
