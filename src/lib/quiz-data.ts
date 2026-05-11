@@ -163,7 +163,7 @@ export interface ResultProfile {
   title: string;
   tagline: string;
   description: string;
-  helps: string[];
+  helps: string;
   nextStep: string;
   cta: string;
 }
