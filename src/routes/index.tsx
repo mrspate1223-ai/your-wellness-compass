@@ -294,6 +294,14 @@ function ResultView({
         <h2 className="font-serif text-3xl leading-tight text-foreground md:text-5xl">
           {r.title}
         </h2>
+        <div className="mt-2 flex justify-end">
+          <button
+            onClick={onRestart}
+            className="text-xs font-medium text-muted-foreground transition-colors hover:text-foreground"
+          >
+            ↺ Retake the assessment
+          </button>
+        </div>
         <p className="mt-4 text-lg italic text-foreground/80 md:text-xl">{r.tagline}</p>
         <p className="mt-5 leading-relaxed text-muted-foreground md:text-lg">{r.description}</p>
 
@@ -301,7 +309,7 @@ function ResultView({
       </div>
 
       <div className="rounded-3xl border border-border bg-card p-7 shadow-[var(--shadow-soft)] md:p-10">
-        <h3 className="font-serif text-xl text-foreground md:text-2xl">What may help</h3>
+        <h3 className="font-serif text-xl text-foreground md:text-2xl">What this pattern is telling us</h3>
         <ul className="mt-4 space-y-2.5">
           {r.helps.map((h) => (
             <li key={h} className="flex items-start gap-3 text-foreground/90">
@@ -312,23 +320,21 @@ function ResultView({
         </ul>
       </div>
 
-      <div className="rounded-3xl border border-primary/20 bg-[image:var(--gradient-primary)] p-7 text-primary-foreground shadow-[var(--shadow-glow)] md:p-10">
+      <div
+        className="rounded-3xl border border-primary/20 p-7 text-primary-foreground shadow-[var(--shadow-glow)] md:p-10"
+        style={{ backgroundColor: "#6B4020" }}
+      >
         <h3 className="font-serif text-xl md:text-2xl">Your next step</h3>
         <p className="mt-3 leading-relaxed opacity-95">{r.nextStep}</p>
         <a
-          href="#"
+          href="https://rooted-and-restored-assessment.restoredradiancepsych.workers.dev"
+          target="_blank"
+          rel="noopener noreferrer"
           className="mt-6 inline-flex items-center justify-center rounded-full bg-card px-7 py-3.5 text-sm font-medium text-foreground transition-[var(--transition-smooth)] hover:scale-[1.03]"
         >
-          {r.cta} →
+          Book Your FM Gateway Intake →
         </a>
       </div>
-
-      <button
-        onClick={onRestart}
-        className="mx-auto block rounded-full px-5 py-2.5 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
-      >
-        ↺ Retake the assessment
-      </button>
     </section>
   );
 }
