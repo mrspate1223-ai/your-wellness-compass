@@ -21,15 +21,8 @@ function SecondaryPattern({ sec }: { sec: ResultProfile }) {
           <p className="italic text-foreground/80">{sec.tagline}</p>
           <p className="leading-relaxed text-muted-foreground">{sec.description}</p>
           <div>
-            <p className="mb-2 font-semibold text-foreground">What may also help:</p>
-            <ul className="space-y-1.5">
-              {sec.helps.map((h) => (
-                <li key={h} className="flex items-start gap-2 text-foreground/90">
-                  <span className="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-primary" />
-                  <span>{h}</span>
-                </li>
-              ))}
-            </ul>
+            <p className="mb-2 font-semibold text-foreground">What this pattern is telling us:</p>
+            <p className="leading-relaxed text-foreground/90">{sec.helps}</p>
           </div>
         </div>
       )}
