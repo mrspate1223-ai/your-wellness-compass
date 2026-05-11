@@ -321,7 +321,7 @@ function ResultView({
           rel="noopener noreferrer"
           className="mt-6 inline-flex items-center justify-center rounded-full bg-card px-7 py-3.5 text-sm font-medium text-foreground transition-[var(--transition-smooth)] hover:scale-[1.03]"
         >
-          Book Your Rooted and Restored Gateway Intake →
+          Book Your Gateway Intake →
         </a>
       </div>
     </section>
