@@ -163,7 +163,7 @@ export interface ResultProfile {
   title: string;
   tagline: string;
   description: string;
-  helps: string[];
+  helps: string;
   nextStep: string;
   cta: string;
 }
@@ -175,15 +175,10 @@ export const results: Record<Category, ResultProfile> = {
     tagline: "You’ve become incredibly skilled at functioning while depleted.",
     description:
       "You likely carry a high level of responsibility and continue showing up even when your body and nervous system are asking for rest. Over time, chronic stress can impact cortisol balance, sleep quality, emotional regulation, inflammation, and overall resilience. Your symptoms may not be caused by a lack of motivation — your system may simply be overloaded.",
-    helps: [
-      "Nervous system regulation",
-      "Burnout recovery support",
-      "Hormonal and cortisol assessment",
-      "Sleep and stress optimization",
-      "Functional medicine evaluation",
-    ],
+    helps:
+      "You have built your life around showing up. For everyone, in every room, at every level. And you have done it so well that most people have no idea what it costs you. What you are experiencing is not a discipline problem or a mindset problem. It is a nervous system and cortisol problem. Your body has been in overdrive for so long that depletion has become your baseline. The FM Gateway Intake is where we start looking at what is actually driving that, with labs and a clinical framework that standard psychiatry does not use.",
     nextStep:
-      "The Rooted & Restored Gateway can help uncover potential contributors to your exhaustion and provide a personalized roadmap forward.",
+      "You have spent long enough functioning on empty. The FM Gateway Intake gives us 90 minutes to look at the full picture, your hormones, your stress response, your nervous system, and build a roadmap that actually fits what is happening in your body. Not a prescription. A starting point that goes deeper.",
     cta: "Begin Your Root Cause Assessment",
   },
   HORMONE: {
@@ -192,15 +187,10 @@ export const results: Record<Category, ResultProfile> = {
     tagline: "Your symptoms may be connected to deeper hormonal and stress-related imbalances.",
     description:
       "Many high-functioning women normalize fatigue, anxiety, irritability, PMS, sleep disruption, weight changes, and brain fog for far too long. Hormonal shifts and chronic stress patterns can significantly impact both emotional and physical wellness.",
-    helps: [
-      "Comprehensive hormone evaluation",
-      "Cortisol and HPA-axis assessment",
-      "Functional medicine lab testing",
-      "Personalized lifestyle and nutraceutical support",
-      "Stress recovery strategies",
-    ],
+    helps:
+      "The symptoms you have been pushing through, the mood shifts, the fatigue that does not lift, the brain that does not cooperate, the body that feels like it is working against you, are not random. They are connected. Hormonal dysregulation rarely shows up cleanly in standard labs, which is exactly why you have probably been told everything looks fine. The FM Gateway Intake is where we start running the panels that actually reflect what your hormones are doing and build a clinical picture that makes sense of what you have been experiencing.",
     nextStep:
-      "The Rooted & Restored Gateway provides a deeper look into the hormonal, nervous system, and functional contributors affecting your wellness.",
+      "Your hormones are not separate from your mental health. They are central to it. The FM Gateway Intake is 90 minutes of clinical depth, the kind that looks at what your current providers have not tested, and starts building a roadmap toward the version of you that is not white-knuckling through every cycle.",
     cta: "Schedule Your Gateway Assessment",
   },
   CAREGIVER: {
@@ -210,15 +200,10 @@ export const results: Record<Category, ResultProfile> = {
       "You may spend so much time supporting others that you’ve stopped noticing how depleted you’ve become.",
     description:
       "Many women in this pattern continue functioning externally while internally feeling emotionally drained, disconnected, anxious, or overwhelmed. This can be associated with chronic nervous system activation, burnout, emotional overload, and long-term stress exposure.",
-    helps: [
-      "Nervous system support",
-      "Emotional regulation strategies",
-      "Sleep and stress restoration",
-      "Personalized wellness planning",
-      "Root-cause focused evaluation",
-    ],
+    helps:
+      "You are the person everyone leans on. You have probably been that person for so long that you cannot remember what it felt like to not be carrying something. The exhaustion you feel is not weakness and it is not something a vacation fixes. It is the result of a nervous system that has been in give mode for years, without the input it needs to regulate and restore. The FM Gateway Intake is where we look at what chronic emotional load is doing to your biology, and what it actually takes to rebuild from the inside out.",
     nextStep:
-      "The Rooted & Restored Gateway was designed to help uncover what your mind and body may have been compensating for.",
+      "You give so much to everyone around you. The FM Gateway Intake is 90 minutes that belong entirely to you. No agenda except getting to the root of what is happening in your body and building a clear, guided path back to yourself.",
     cta: "Start Your Restoration Journey",
   },
   DEPLETED: {
@@ -227,15 +212,10 @@ export const results: Record<Category, ResultProfile> = {
     tagline: "Your body may be trying to signal that something deeper needs attention.",
     description:
       "Brain fog, low motivation, emotional flatness, fatigue, digestive symptoms, and difficulty concentrating are often associated with chronic inflammation, nutrient depletion, gut-brain imbalance, stress overload, and nervous system dysregulation.",
-    helps: [
-      "Functional lab assessment",
-      "Gut-brain evaluation",
-      "Nutrient and inflammation support",
-      "Personalized supplement recommendations",
-      "Comprehensive integrative care",
-    ],
+    helps:
+      "Brain fog is one of the most dismissed symptoms in women's healthcare, and one of the most telling. When your mind feels slow, your body feels flat, and your motivation has gone quiet, your system is not failing you out of nowhere. There is almost always something biological underneath it, inflammation, nutrient depletion, gut-brain dysregulation, or a combination that has been building for a long time. The FM Gateway Intake is where we start identifying what that is, with a clinical lens that actually looks for it.",
     nextStep:
-      "The Rooted & Restored Gateway can help identify potential root contributors to your symptoms and create a personalized plan for recovery.",
+      "The fog is not permanent. It is a signal. The FM Gateway Intake gives us 90 minutes to start reading that signal clearly, look at what your body is actually depleted in, and build a roadmap that addresses what is driving it at the root, not just the surface.",
     cta: "Discover Your Root Causes",
   },
   SURVIVAL: {
@@ -245,15 +225,10 @@ export const results: Record<Category, ResultProfile> = {
       "Your nervous system may have adapted to stress for so long that survival mode has become your normal.",
     description:
       "You may constantly feel “on,” overwhelmed, emotionally reactive, anxious, exhausted, or unable to fully relax — even when life appears manageable from the outside. This pattern is common in individuals experiencing chronic stress exposure, nervous system dysregulation, burnout, and emotional overload.",
-    helps: [
-      "Nervous system regulation",
-      "Stress recovery support",
-      "Cortisol and hormone assessment",
-      "Personalized wellness planning",
-      "Integrative psychiatric support",
-    ],
+    helps:
+      "When your nervous system has been in survival mode long enough, it stops feeling like a crisis and starts feeling like just how you are. The constant vigilance, the inability to fully rest, the emotional reactivity that surprises even you, these are not personality traits. They are physiological adaptations to prolonged stress. And they can be changed. The FM Gateway Intake is where we start looking at what your nervous system and your biology need to actually shift out of survival and into something that feels like your life again.",
     nextStep:
-      "The Rooted & Restored Gateway offers a comprehensive starting point for understanding what may be keeping your system stuck in survival mode.",
+      "You were not built to live like this. The FM Gateway Intake is 90 minutes to look at what has kept your system stuck in overdrive and build a clear, clinical path toward a nervous system that can finally rest. This is where the pattern starts to change.",
     cta: "Take the Next Step Toward Restoration",
   },
 };
