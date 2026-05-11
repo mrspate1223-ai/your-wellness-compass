@@ -176,9 +176,9 @@ export const results: Record<Category, ResultProfile> = {
     description:
       "You likely carry a high level of responsibility and continue showing up even when your body and nervous system are asking for rest. Over time, chronic stress can impact cortisol balance, sleep quality, emotional regulation, inflammation, and overall resilience. Your symptoms may not be caused by a lack of motivation — your system may simply be overloaded.",
     helps:
-      "You have built your life around showing up. For everyone, in every room, at every level. And you have done it so well that most people have no idea what it costs you. What you are experiencing is not a discipline problem or a mindset problem. It is a nervous system and cortisol problem. Your body has been in overdrive for so long that depletion has become your baseline. The FM Gateway Intake is where we start looking at what is actually driving that, with labs and a clinical framework that standard psychiatry does not use.",
+      "You have built your life around showing up. For everyone, in every room, at every level. And you have done it so well that most people have no idea what it costs you. What you are experiencing is not a discipline problem or a mindset problem. It is a nervous system and cortisol problem. Your body has been in overdrive for so long that depletion has become your baseline. The Rooted and Restored Gateway Intake is where we start looking at what is actually driving that, with labs and a clinical framework that standard psychiatry does not use.",
     nextStep:
-      "You have spent long enough functioning on empty. The FM Gateway Intake gives us 90 minutes to look at the full picture, your hormones, your stress response, your nervous system, and build a roadmap that actually fits what is happening in your body. Not a prescription. A starting point that goes deeper.",
+      "You have spent long enough functioning on empty. The Rooted and Restored Gateway Intake gives us 90 minutes to look at the full picture, your hormones, your stress response, your nervous system, and build a roadmap that actually fits what is happening in your body. Not a prescription. A starting point that goes deeper.",
     cta: "Begin Your Root Cause Assessment",
   },
   HORMONE: {
@@ -188,9 +188,9 @@ export const results: Record<Category, ResultProfile> = {
     description:
       "Many high-functioning women normalize fatigue, anxiety, irritability, PMS, sleep disruption, weight changes, and brain fog for far too long. Hormonal shifts and chronic stress patterns can significantly impact both emotional and physical wellness.",
     helps:
-      "The symptoms you have been pushing through, the mood shifts, the fatigue that does not lift, the brain that does not cooperate, the body that feels like it is working against you, are not random. They are connected. Hormonal dysregulation rarely shows up cleanly in standard labs, which is exactly why you have probably been told everything looks fine. The FM Gateway Intake is where we start running the panels that actually reflect what your hormones are doing and build a clinical picture that makes sense of what you have been experiencing.",
+      "The symptoms you have been pushing through, the mood shifts, the fatigue that does not lift, the brain that does not cooperate, the body that feels like it is working against you, are not random. They are connected. Hormonal dysregulation rarely shows up cleanly in standard labs, which is exactly why you have probably been told everything looks fine. The Rooted and Restored Gateway Intake is where we start running the panels that actually reflect what your hormones are doing and build a clinical picture that makes sense of what you have been experiencing.",
     nextStep:
-      "Your hormones are not separate from your mental health. They are central to it. The FM Gateway Intake is 90 minutes of clinical depth, the kind that looks at what your current providers have not tested, and starts building a roadmap toward the version of you that is not white-knuckling through every cycle.",
+      "Your hormones are not separate from your mental health. They are central to it. The Rooted and Restored Gateway Intake is 90 minutes of clinical depth, the kind that looks at what your current providers have not tested, and starts building a roadmap toward the version of you that is not white-knuckling through every cycle.",
     cta: "Schedule Your Gateway Assessment",
   },
   CAREGIVER: {
@@ -201,9 +201,9 @@ export const results: Record<Category, ResultProfile> = {
     description:
       "Many women in this pattern continue functioning externally while internally feeling emotionally drained, disconnected, anxious, or overwhelmed. This can be associated with chronic nervous system activation, burnout, emotional overload, and long-term stress exposure.",
     helps:
-      "You are the person everyone leans on. You have probably been that person for so long that you cannot remember what it felt like to not be carrying something. The exhaustion you feel is not weakness and it is not something a vacation fixes. It is the result of a nervous system that has been in give mode for years, without the input it needs to regulate and restore. The FM Gateway Intake is where we look at what chronic emotional load is doing to your biology, and what it actually takes to rebuild from the inside out.",
+      "You are the person everyone leans on. You have probably been that person for so long that you cannot remember what it felt like to not be carrying something. The exhaustion you feel is not weakness and it is not something a vacation fixes. It is the result of a nervous system that has been in give mode for years, without the input it needs to regulate and restore. The Rooted and Restored Gateway Intake is where we look at what chronic emotional load is doing to your biology, and what it actually takes to rebuild from the inside out.",
     nextStep:
-      "You give so much to everyone around you. The FM Gateway Intake is 90 minutes that belong entirely to you. No agenda except getting to the root of what is happening in your body and building a clear, guided path back to yourself.",
+      "You give so much to everyone around you. The Rooted and Restored Gateway Intake is 90 minutes that belong entirely to you. No agenda except getting to the root of what is happening in your body and building a clear, guided path back to yourself.",
     cta: "Start Your Restoration Journey",
   },
   DEPLETED: {
@@ -213,9 +213,9 @@ export const results: Record<Category, ResultProfile> = {
     description:
       "Brain fog, low motivation, emotional flatness, fatigue, digestive symptoms, and difficulty concentrating are often associated with chronic inflammation, nutrient depletion, gut-brain imbalance, stress overload, and nervous system dysregulation.",
     helps:
-      "Brain fog is one of the most dismissed symptoms in women's healthcare, and one of the most telling. When your mind feels slow, your body feels flat, and your motivation has gone quiet, your system is not failing you out of nowhere. There is almost always something biological underneath it, inflammation, nutrient depletion, gut-brain dysregulation, or a combination that has been building for a long time. The FM Gateway Intake is where we start identifying what that is, with a clinical lens that actually looks for it.",
+      "Brain fog is one of the most dismissed symptoms in women's healthcare, and one of the most telling. When your mind feels slow, your body feels flat, and your motivation has gone quiet, your system is not failing you out of nowhere. There is almost always something biological underneath it, inflammation, nutrient depletion, gut-brain dysregulation, or a combination that has been building for a long time. The Rooted and Restored Gateway Intake is where we start identifying what that is, with a clinical lens that actually looks for it.",
     nextStep:
-      "The fog is not permanent. It is a signal. The FM Gateway Intake gives us 90 minutes to start reading that signal clearly, look at what your body is actually depleted in, and build a roadmap that addresses what is driving it at the root, not just the surface.",
+      "The fog is not permanent. It is a signal. The Rooted and Restored Gateway Intake gives us 90 minutes to start reading that signal clearly, look at what your body is actually depleted in, and build a roadmap that addresses what is driving it at the root, not just the surface.",
     cta: "Discover Your Root Causes",
   },
   SURVIVAL: {
@@ -226,9 +226,9 @@ export const results: Record<Category, ResultProfile> = {
     description:
       "You may constantly feel “on,” overwhelmed, emotionally reactive, anxious, exhausted, or unable to fully relax — even when life appears manageable from the outside. This pattern is common in individuals experiencing chronic stress exposure, nervous system dysregulation, burnout, and emotional overload.",
     helps:
-      "When your nervous system has been in survival mode long enough, it stops feeling like a crisis and starts feeling like just how you are. The constant vigilance, the inability to fully rest, the emotional reactivity that surprises even you, these are not personality traits. They are physiological adaptations to prolonged stress. And they can be changed. The FM Gateway Intake is where we start looking at what your nervous system and your biology need to actually shift out of survival and into something that feels like your life again.",
+      "When your nervous system has been in survival mode long enough, it stops feeling like a crisis and starts feeling like just how you are. The constant vigilance, the inability to fully rest, the emotional reactivity that surprises even you, these are not personality traits. They are physiological adaptations to prolonged stress. And they can be changed. The Rooted and Restored Gateway Intake is where we start looking at what your nervous system and your biology need to actually shift out of survival and into something that feels like your life again.",
     nextStep:
-      "You were not built to live like this. The FM Gateway Intake is 90 minutes to look at what has kept your system stuck in overdrive and build a clear, clinical path toward a nervous system that can finally rest. This is where the pattern starts to change.",
+      "You were not built to live like this. The Rooted and Restored Gateway Intake is 90 minutes to look at what has kept your system stuck in overdrive and build a clear, clinical path toward a nervous system that can finally rest. This is where the pattern starts to change.",
     cta: "Take the Next Step Toward Restoration",
   },
 };

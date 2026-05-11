@@ -23,7 +23,7 @@ function SecondaryPattern({ sec }: { sec: ResultProfile }) {
           <div>
             <p className="mb-2 font-semibold text-foreground">What this pattern is telling us:</p>
             <p className="leading-relaxed text-foreground/90">
-              {sec.helps.replace(/\s*The FM Gateway Intake[^]*$/, "").trim()}
+              {sec.helps.replace(/\s*The Rooted and Restored Gateway Intake[^]*$/, "").trim()}
             </p>
           </div>
         </div>
