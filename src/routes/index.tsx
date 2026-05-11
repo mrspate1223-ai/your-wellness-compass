@@ -148,7 +148,8 @@ function Intro({ onStart }: { onStart: () => void }) {
       </div>
       <button
         onClick={onStart}
-        className="mt-8 w-full rounded-full bg-[image:var(--gradient-primary)] px-8 py-4 text-base font-medium text-primary-foreground shadow-[var(--shadow-glow)] transition-[var(--transition-smooth)] hover:scale-[1.02] active:scale-[0.99] md:w-auto"
+        style={{ backgroundColor: "#6B4020" }}
+        className="mt-8 w-full rounded-full px-8 py-4 text-base font-medium text-primary-foreground shadow-[var(--shadow-glow)] transition-[var(--transition-smooth)] hover:scale-[1.02] active:scale-[0.99] md:w-auto"
       >
         Begin the Assessment →
       </button>
