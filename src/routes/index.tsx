@@ -22,7 +22,9 @@ function SecondaryPattern({ sec }: { sec: ResultProfile }) {
           <p className="leading-relaxed text-muted-foreground">{sec.description}</p>
           <div>
             <p className="mb-2 font-semibold text-foreground">What this pattern is telling us:</p>
-            <p className="leading-relaxed text-foreground/90">{sec.helps}</p>
+            <p className="leading-relaxed text-foreground/90">
+              {sec.helps.replace(/\s*The FM Gateway Intake[^]*$/, "").trim()}
+            </p>
           </div>
         </div>
       )}
@@ -314,12 +316,12 @@ function ResultView({
         <h3 className="font-serif text-xl md:text-2xl">Your next step</h3>
         <p className="mt-3 leading-relaxed opacity-95">{r.nextStep}</p>
         <a
-          href="https://rooted-and-restored-assessment.restoredradiancepsych.workers.dev"
+          href="https://restoredradiancepsych.com/rooted-restored-gateway"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-6 inline-flex items-center justify-center rounded-full bg-card px-7 py-3.5 text-sm font-medium text-foreground transition-[var(--transition-smooth)] hover:scale-[1.03]"
         >
-          Book Your FM Gateway Intake →
+          Book Your Rooted and Restored Gateway Intake →
         </a>
       </div>
     </section>
