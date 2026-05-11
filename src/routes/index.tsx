@@ -137,9 +137,9 @@ function Intro({ onStart }: { onStart: () => void }) {
           emotionally flat, or unlike yourself.
         </p>
         <p className="text-base md:text-lg text-muted-foreground">
-          This assessment was designed to help identify common patterns associated with chronic
-          stress, nervous system overload, hormonal imbalance, burnout, inflammation, and
-          functional depletion.
+          If you have been told your labs are normal but you know something is off, this assessment
+          was designed to help identify what pattern may be driving what you feel, so you finally
+          have language for it.
         </p>
         <div className="mt-6 rounded-2xl border border-border bg-secondary/50 p-4 text-sm text-secondary-foreground">
           This is not a diagnostic tool. It is a starting point for deeper self-awareness and
